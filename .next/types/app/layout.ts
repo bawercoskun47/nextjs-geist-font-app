@@ -1,8 +1,8 @@
-// File: /project/sandbox/user-workspace/src/app/layout.tsx
-import * as entry from '../../../src/app/layout.js'
+// File: /home/runner/work/nextjs-geist-font-app/nextjs-geist-font-app/app/layout.tsx
+import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../src/app/layout.js')
+type TEntry = typeof import('../../../app/layout.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
